@@ -1,0 +1,299 @@
+.header_clients {
+  position: fixed;
+  width: 100%;
+  padding: 0;
+  background: rgba(255, 255, 255, 1);
+}
+
+.ant-radio-button-wrapper {
+  padding: 5px 16px;
+  gap: 4px;
+  border-radius: 2px 0px 0px 2px;
+  border-right: 1px solid #d9d9d9; /* Правая граница для всех, кроме последней кнопки */
+  border-top: 0px;
+  border-bottom: 0px;
+  border-left: 0px;
+}
+
+/* Убрать правую границу для последней кнопки */
+.ant-radio-button-wrapper:last-child {
+  border-right: 0px;
+}
+
+/* Если вам нужно установить конкретную ширину */
+/* .ant-radio-group {
+  width: 158.83px;
+} */
+
+/* Clients */
+
+.service-highlight {
+  border: 1px solid rgba(82, 196, 26, 1);
+  background-color: rgba(246, 255, 237, 1);
+  color: rgba(82, 196, 26, 1);
+  padding: 1px 8px;
+  border-radius: 2px;
+  margin-bottom: 3px;
+  margin-right: 8px;
+  max-width: 50px;
+  display: ruby; /* removed quotes */
+}
+
+.search-container {
+  margin: 16px 45px;
+  display: flex; /* removed quotes */
+  align-items: center;
+  justify-content: space-between; /* This ensures elements are spaced evenly */
+}
+
+.search-input-container {
+  display: flex; /* Ensures label and input are inline */
+  align-items: center; /* Vertically aligns items in this container */
+}
+
+.search-span {
+  margin-right: 10px;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.search-part {
+  width: 250px;
+  border-radius: 1px;
+  outline: none;
+  box-shadow: none;
+}
+
+.search-outline {
+  color: #d9d9d9;
+}
+
+.icon-container {
+  display: flex;
+  gap: 16px; /* Adjust this value as needed to space the icons appropriately */
+}
+
+.search-icon {
+  font-size: 16px;
+}
+
+.clients-table {
+  padding-top: 20px;
+}
+
+.chat-button-container {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.chat-button {
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(3, 149, 255, 1);
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-shadow: none;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-item-feedback {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+}
+
+
+.samebutton {
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(3, 149, 255, 1);
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-shadow: none;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* App.css */
+
+.modal-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #000; /* Assuming you want standard black text */
+}
+
+.form-modal {
+  padding: 16px 24px;
+  top: 20px;
+}
+
+.form-item {
+  margin-bottom: 16px;
+}
+
+.form-button-row {
+  margin-top: 24px;
+  text-align: right;
+}
+
+.radio-group-full-width {
+  width: 100%;
+}
+
+.save-button {
+  width: 180px;
+  height: 32px;
+  padding: 5px 12px;
+  border-radius: 2px;
+  border: none;
+  background-color: rgba(3, 149, 255, 1); /* Assuming you want this color as background */
+  color: white; /* Adjust text color as needed */
+}
+
+.close-button {
+  width: 180px;
+  height: 32px;
+  padding: 5px 12px;
+  border-radius: 2px;
+  border: 1px solid rgba(103, 101, 101, 1);
+  background-color: transparent;
+  color: rgba(103, 101, 101, 1); /* Adjust text color to match the border */
+}
+
+.notes-month {
+  text-align: center;
+  font-size: 12px;
+}
+
+.notes-month section {
+  background: #e6f7ff;
+  border-radius: 4px;
+  padding: 2px;
+  margin-bottom: 2px;
+}
+
+.employees_head{
+  margin-left: 50px;
+}
+
+.search-container-em, .employee-choice {
+  margin: 10px 50px 10px 0px;
+  display: flex; /* removed quotes */
+  align-items: center;
+  justify-content: space-between; /* This ensures elements are spaced evenly */
+}
+
+.search-container-in {
+  margin: 20px 50px;
+  display: flex; /* removed quotes */
+  align-items: center;
+  justify-content: space-between; /* This ensures elements are spaced evenly */
+}
+
+.selected-empl{
+  border: none;
+  gap: 16px;
+}
+
+.tabs{
+  margin: 0 50px 20px;
+  display: flex; 
+  gap: 10px;
+  align-items: center;
+}
+
+.tab-button {
+  border: 1px solid #d9d9d9;
+  background-color: white;
+  padding: 8px 16px;
+  cursor: pointer;
+  outline: none;
+  margin-left: 8px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.tab-button.active {
+  border: 1px solid #1890ff;
+  background-color: #e6f7ff;
+  color: #1890ff;
+}
+
+.tab-button:not(.active):hover {
+  background-color: #f0f0f0;
+}
+
+.report-filter {
+  display: flex;
+  border: none;
+  flex-direction: column;
+  gap: 20px;
+  margin: 0 50px 20px;
+}
+
+.choice_em_sh{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+}
+
+.choice_period{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.choice_period_main{
+  display: flex;
+  justify-content: space-between;
+}
+
+.radio_choice{
+  border: none;
+}
+
+.income_sum{
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  gap: 10px;
+
+  margin-top: 16px;
+  align-items: center;
+}
+
+.income_input{
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  width: 260px;
+}
+
+.choice_period {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.income_input {
+  width: 100px;
+}
+
+
+
+
+
+
